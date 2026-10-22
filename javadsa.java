@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class javadsa
  {
-/* 
+
     public static ArrayList<Integer> intersection(int arr[],int []arr2)
     {
         ArrayList<Integer>ans= new ArrayList<>();
@@ -31,7 +31,7 @@ public class javadsa
     }
  public static void main(String[] args)
 {
-/* 
+ 
     int arr[]={1,2,3,4};
     int arr2[]={2,4,5,7};
     System.out.println( intersection(arr,arr2));
@@ -51,7 +51,7 @@ System.out.println("enter a cp");
 int cp= sc.nextInt();
 
 System.out.println("eneter a selling price");
-in t sp=sc.nextInt();
+int sp=sc.nextInt();
 
 if(sp>cp)
 {
@@ -385,8 +385,7 @@ public static void main(String[] args)
     }
  }
     */
-  public static void main(String[] args) 
-{
+ 
 
 // String s= "rushita";
 // StringBuilder sb=new StringBuilder(s);

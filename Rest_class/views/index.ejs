@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Quesra post</h1>
+
+<%for(post of posts){ %>
+    <div class="post">
+        <h3 class="user" >@<%=post.username%></h3>
+        <h4  class="user"><%=post.constant%></h4>
+    </div>
+    
+<%}%>
+</body>
+</html>

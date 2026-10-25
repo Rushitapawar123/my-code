@@ -8,14 +8,36 @@
 </head>
 <body>
     
+    <style>
+    h1 {
+    color: rgb(162, 8, 8);
+}
+
+.post{
+    background-color: rgb(219, 165, 173);
+}
+.user{
+    font-style: italic;
+    background-color: #ecd5d5;
+}</style>
 <h1>Quesra post</h1>
 
 <%for(post of posts){ %>
     <div class="post">
         <h3 class="user" >@<%=post.username%></h3>
-        <h4  class="user"><%=post.constant%></h4>
+        <h4  class="user"><%=post.constent%></h4>
     </div>
     
+   <a href="http://localhost:8080/posts/<%= post.id %>">
+    See in detail
+</a>
+
+<a href="http://localhost:8080/posts/<%= post.id %>/edit">
+   edit
+</a>
+
 <%}%>
+<br>
+ <a href="http://localhost:8080/posts/new">create new post</a>
 </body>
 </html>
